@@ -6,28 +6,28 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você imagina o impacto da inteligência artificial nas profissões do futuro?",
+        enunciado: "O que é Inteligência Artificial?",
         alternativas: [
             {
-                texto: "A tecnologia assumirá tarefas repetitivas, permitindo que a humanidade se dedique a profissões mais criativas, estratégicas e humanas. ",
-                afirmacao: "Isso gerará uma valorização sem precedentes das habilidades socioemocionais, transformando as escolas em centros focados em empatia e liderança. "
+                texto: " É um campo da ciência da computação dedicado a criar sistemas e máquinas capazes de simular a inteligência humana para realizar tarefas e resolver problemas.",
+                afirmacao: "A IA não é uma mente viva, mas sim um conjunto de algoritmos avançados que analisam dados para tomar decisões."
             },
             {
-                texto: "A automação em massa extinguirá cargos tradicionais rapidamente, gerando uma crise de emprego que exigirá mudanças profundas na economia. ",
-                afirmacao: "Diante disso, novos modelos sociais vão surgir, forçando a implementação de rendas básicas universais para sustentar as famílias. "
+                texto: "A criação exclusiva de robôs físicos com força superior à humana.",
+                afirmacao: " A IA não é uma mente viva, mas sim um conjunto de algoritmos avançados que analisam dados para tomar decisões."
             }
         ]
     },
     {
-        enunciado: "De que maneira as ferramentas geradoras de conteúdo (imagens, textos, músicas) vão afetar a cultura? ",
-        alternativas: [
+      enunciado: "Como os sistemas modernos de IA aprendem a realizar tarefas?",
+        alternativas: [  e
             {
-                texto: "Os sistemas artificiais funcionarão como copilotos dos artistas, expandindo o potencial de criação e dando vida a ideias antes impossíveis. ",
-                afirmacao: "A fusão entre códigos e sentimentos humanos criará novos gêneros artísticos híbridos, revolucionando o cinema, a música e o design gráfico. "
+                texto: "  Através de regras fixas criadas por programadores que cobrem todas as situações possíveis.",
+                afirmacao: " Essa técnica é chamada de Machine Learning (Aprendizado de Máquina), onde o sistema se ajusta sozinho a partir dos dados recebidos, sem precisar de programação direta para cada cenário."
             },
             {
-                texto: "A internet será inundada por produções automáticas e genéricas, o que provocará um cansaço visual e a desvalorização do trabalho manual humano.",
-                afirmacao: " Esse cenário provocará um movimento cultural de valorização do 'feito à mão', tornando produtos físicos e artesanais artigos de luxo extremados."
+                texto: "Analisando grandes volumes de dados para identificar padrões e prever resultados.",
+                afirmacao: "Essa técnica é chamada de Machine Learning (Aprendizado de Máquina), onde o sistema se ajusta sozinho a partir dos dados recebidos, sem precisar de programação direta para cada cenário. "
             }
         ]
     },
@@ -70,9 +70,50 @@ const perguntas = [
             }
         ]
     },
-];
 
 
+{
+      enunciado: "O que é a IA Generativa, que ficou famosa com ferramentas como o ChatGPT?",
+        alternativas: [  e
+            {
+                texto: "  Uma IA que serve apenas para fazer cálculos matemáticos complexos de engenharia.",
+                afirmacao: " Essa técnica é chamada de Machine Learning (Aprendizado de Máquina), onde o sistema se ajusta sozinho a partir dos dados recebidos, sem precisar de programação direta para cada cenário."
+            },
+            {
+                texto: "Uma IA capaz de criar conteúdos novos e originais, como textos, imagens, músicas e códigos.",
+                afirmacao: "Essa técnica é chamada de Machine Learning (Aprendizado de Máquina), onde o sistema se ajusta sozinho a partir dos dados recebidos, sem precisar de programação direta para cada cenário. "
+            }
+        ]
+}
+
+{
+      enunciado: "O que é o Viés de Algoritmo Algorithmic Bias na IA?",
+        alternativas: [  e
+            {
+                texto: "Uma falha técnica que faz o computador desligar sozinho quando processa dados muito pesados. ",
+                afirmacao: " A reprodução de preconceitos humanos pela IA, causada por dados de treinamento históricos que são incompletos ou discriminatórios.."
+            },
+            {
+                texto: "O Viés de Algoritmo é a reprodução e amplificação de preconceitos humanos por um sistema de IA, gerando decisões injustas ou discriminatórias.",
+                afirmacao: "Isso acontece porque a IA não tem consciência ou senso ético; ela apenas analisa dados históricos e, se esses dados contiverem preconceitos da sociedade, a máquina aprenderá que esses padrões distorcidos são a regra correta a ser seguida.  "
+            }
+        ]
+    },
+
+
+{
+      enunciado: "O que é o Deep Learning ",
+        alternativas: [  e
+            {
+                texto: "Uma IA que imita redes de neurônios do cérebro para aprender tarefas complexas sozinha.",
+                afirmacao: " O Deep Learning usa redes neurais artificiais com várias camadas para reconhecer rostos, traduzir idiomas e aprender sem ajuda humana constante."
+            },
+            {
+                texto: "Um programa simples que apenas organiza arquivos em ordem alfabética.",
+                afirmacao: "Essa tecnologia vai muito além de organizar arquivos; ela resolve problemas que computadores comuns não conseguem decifrar com regras simples.  "
+            }
+        ]
+    },
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
